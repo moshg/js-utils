@@ -1,5 +1,5 @@
 import React from 'react';
-import { mergeCells } from './mergeCells';
+import { mergeCells } from '.';
 import styled from '@emotion/styled';
 
 export const MergeCells: React.FC = () => {
