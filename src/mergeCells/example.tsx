@@ -16,9 +16,9 @@ export const MergeCells: React.FC = () => {
     <table>
       <thead>
         <tr>
-          <th>ユーザID</th>
-          <th>カテゴリID</th>
-          <th>アイテムID</th>
+          <th>User ID</th>
+          <th>Category ID</th>
+          <th>Item ID</th>
         </tr>
       </thead>
       <tbody>
