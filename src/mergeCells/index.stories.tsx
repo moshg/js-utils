@@ -1,3 +1,5 @@
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
 import React from 'react';
 import { mergeCells } from '.';
 import styled from '@emotion/styled';
@@ -41,3 +43,13 @@ export const MergeCells: React.FC = () => {
 const Cell = styled.td`
   border: solid black 1px;
 `;
+
+// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+export default {
+  title: 'Example/MergeCells',
+  component: MergeCells,
+  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
+} as ComponentMeta<typeof MergeCells>;

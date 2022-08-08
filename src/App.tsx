@@ -1,7 +1,5 @@
-import { MergeCells } from './mergeCells/example';
-
 function App() {
-  return <MergeCells />;
+  return <></>;
 }
 
 export default App;
